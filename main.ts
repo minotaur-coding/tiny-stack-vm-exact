@@ -1,4 +1,4 @@
-// Tiny stack VM — exact port of the reference semantics (generator/subject/vm.mjs / ISA.md v1).
+// Tiny stack VM — exact port (v2, submitted) of the reference semantics (generator/subject/vm.mjs / ISA.md v1).
 // Every rule: 32-bit wrapping, trap codes, stack/call bounds, output & step limits.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
